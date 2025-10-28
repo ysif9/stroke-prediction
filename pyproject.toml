@@ -1,0 +1,16 @@
+[project]
+name = "stroke-prediction"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "jupyterlab>=4.4.10",
+    "matplotlib>=3.10.7",
+    "pandas>=2.3.3",
+    "seaborn>=0.13.2",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.1.0",
+]
